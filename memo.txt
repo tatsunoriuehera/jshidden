@@ -1,0 +1,13 @@
+div ルール
+table自体をdivできるけど、trはダメだよ。
+https://webliker.info/46840/
+
+デバックにはconsole.logを使おう！
+https://www.sejuku.net/blog/27205
+
+jsの要素を表示・非表示
+https://itsakura.com/javascript-display
+http://5am.jp/javascript/form_change_javascript/
+
+phpでoracle接続
+https://www.php.net/manual/ja/function.oci-connect.php

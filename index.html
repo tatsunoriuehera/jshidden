@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>radio hidden test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div align="center">
+    <h3>radio hidden test</h3>
+
+  </div>
+  <fieldset>
+  <div class="container">
+    <!-- radioは基本的にチェックを外せないよ -->
+    <div><input type="radio" name="type" onclick="entryChange1();" checked="checked">区分指定しない</div>
+    <div><input type="radio" name="type" onclick="entryChange1();" >区分指定する</div>
+
+    <div id="hide">配送・引荷・ヤマト便をご希望の方は区分指定するをクリック！</div>
+    <div id="result"><input type="radio" name="division" onclick="entryChange2();">配達
+    <input type="radio" name="division" onclick="entryChange3();">引荷
+    <input type="radio" name="division" onclick="entryChange4();">ヤマト</div>
+  </fieldset>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
